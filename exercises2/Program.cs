@@ -1,43 +1,43 @@
-﻿/* Kullanıcıdan alınan bir sayının asal olup olmadığını kontrol eden bir program yazın. */
+﻿/* 
+   Welcome to exercises 2
+   This program takes a positive number from the user and checks whether it is a prime number.
+*/
 
-
-
-Console.WriteLine("Welcome to exercises 2");
-Console.WriteLine("Lütfen Pozitif bir sayı giriniz:");
+Console.WriteLine("Please enter a positive number:");
 int value;
-while(!int.TryParse(Console.ReadLine(),out value) || value<=0)
+
+// Validate user input to ensure a positive integer is entered
+while (!int.TryParse(Console.ReadLine(), out value) || value <= 0)
 {
-            Console.WriteLine("Hatalı giriş.Lütfen pozitif bir sayı giriniz !");
-            Console.Write("Lütfen pozitif bir sayı girin:", + value);
+    Console.WriteLine("Invalid input. Please enter a positive number!");
+    Console.Write("Please enter a positive number: ");
 }
-          if(IsAsal(value))
-            {
-                Console.WriteLine("Girmiş olduğunuz sayı asaldır.");
 
-            }
-            else
-            {
-                Console.WriteLine("Girmiş olduğunuz sayı asal bir sayı değildir");
-            }
+// Check if the entered number is prime using the IsAsal method
+if (IsAsal(value))
+{
+    Console.WriteLine("The entered number is a prime number.");
+}
+else
+{
+    Console.WriteLine("The entered number is not a prime number.");
+}
 
+// Method to check if a number is prime
+static bool IsAsal(int number)
+{
+    // If the number is less than 2, it is not prime
+    if (number < 2)
+        return false;
 
-
- static bool IsAsal(int sayi)
-        {
-         if (sayi < 2) // Sayı 2'den küçükse asal değildir.
-         return false;
-
-
-          // 2'den başlayarak sayının kareköküne kadar olan sayılara kadar bir döngü oluşturulur.
-         // Bu döngü, sayının asal olup olmadığını kontrol etmek için kullanılır.
-         for (int i = 2; i < Math.Sqrt(sayi); i++)
-
-
-         // Eğer sayı i'ye tam bölünüyorsa, sayı asal değildir.
-         {
-            if (sayi % i == 0)
+    // Iterate from 2 up to the square root of the number
+    for (int i = 2; i <= Math.Sqrt(number); i++)
+    {
+        // If the number is divisible evenly by i, it is not prime
+        if (number % i == 0)
             return false;
-         }
-            return true;
-        }
-         // Döngüden hiçbir bölme işlemi sonucunda asal olmadığı belirlenmemişse, sayı asaldır.
+    }
+
+    // If no divisions resulted in an even division, the number is prime
+    return true;
+}

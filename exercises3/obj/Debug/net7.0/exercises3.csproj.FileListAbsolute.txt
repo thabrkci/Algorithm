@@ -1,0 +1,14 @@
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\bin\Debug\net7.0\exercises3.exe
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\bin\Debug\net7.0\exercises3.deps.json
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\bin\Debug\net7.0\exercises3.runtimeconfig.json
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\bin\Debug\net7.0\exercises3.dll
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\bin\Debug\net7.0\exercises3.pdb
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.AssemblyInfoInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.AssemblyInfo.cs
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.csproj.CoreCompileInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.dll
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\refint\exercises3.dll
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.pdb
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\exercises3.genruntimeconfig.cache
+C:\Users\Taha\OneDrive\Masaüstü\algorithm\exercises3\obj\Debug\net7.0\ref\exercises3.dll
